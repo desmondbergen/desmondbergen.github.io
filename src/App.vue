@@ -5,13 +5,14 @@
   <div class="wrapper">
     <h1>dessie's site</h1>
     <h3>welcome aboard</h3>
-    <br>
+    <hr>
   </div>
 </template>
 
 <style scoped>
   .wrapper{
     display:flex;
-    justify-content: center;
+    flex-direction: column;
+    align-items: center;
   }
 </style>
